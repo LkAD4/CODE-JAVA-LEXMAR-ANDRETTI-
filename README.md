@@ -1,5 +1,6 @@
 # CODE-JAVA-LEXMAR-ANDRETTI-
 proyectos de java
+Es colamborador con Jose Perea
 Carpetas de Java preparados para trabajos
 
 ## Funcionamiento
