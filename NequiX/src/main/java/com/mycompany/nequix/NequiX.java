@@ -66,7 +66,7 @@ public class NequiX {
                     GenerarPDF.generarReporte(usuario.getNombre(), operaciones, usuario.getSaldo());
                     System.out.println("Gracias por usar NequiX. ¡SEE YA LATER!");
                 }
-                default -> System.out.println("Opción no válida");
+                default -> System.out.println("Opción no válid");
             }
 
         } while (opcion != 4);
