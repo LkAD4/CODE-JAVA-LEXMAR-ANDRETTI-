@@ -11,5 +11,6 @@ El codigo permite la creacion de un usuario el cual puede depositar y retirar di
 los bancos cobran un porcentaje por la accion de deposito o retiro, cuando ud finalice el programa se le creara un PDF con una factura de sus acciones
 
 ## UML
-<img width="1706" height="652" alt="NEQUI" src="https://github.com/user-attachments/assets/9ad57842-29bd-4473-8dc7-bd303c98025b" />
 
+
+<img width="1019" height="733" alt="NEQUIX" src="https://github.com/user-attachments/assets/5d301d30-01be-4559-ba02-9aecc9c006c9" />
