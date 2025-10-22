@@ -1,5 +1,5 @@
 com\mycompany\nequix\GenerarPDF.class
+com\mycompany\nequix\NequiX.class
 com\mycompany\nequix\User.class
 com\mycompany\nequix\Banco.class
 com\mycompany\nequix\Persona.class
-com\mycompany\nequix\NequiX.class
