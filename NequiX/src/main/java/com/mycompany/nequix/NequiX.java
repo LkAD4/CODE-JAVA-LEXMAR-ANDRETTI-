@@ -27,7 +27,9 @@ public class NequiX {
         System.out.print("Ingrese dinero inicial: ");
         double dinero = sc.nextDouble();
 
-        User usuario = new User(nombre, edad, dinero);
+    // crear la credencial externamente (agregación)
+    Id_User credencial = new Id_User(nombre, edad);
+    User usuario = new User(nombre, edad, dinero, credencial);
 
         int opcion;
         do {
@@ -63,10 +65,11 @@ public class NequiX {
                 case 4 -> {
                     System.out.println("Generando reporte...");
                     // 👉 Aquí se conecta tu clase PDF sin modificarla
-                    GenerarPDF.generarReporte(usuario.getNombre(), operaciones, usuario.getSaldo());
+                    // usar la sobrecarga que recibe User para incluir la credencial en el PDF
+                    GenerarPDF.generarReporte(usuario, operaciones, usuario.getSaldo());
                     System.out.println("Gracias por usar NequiX. ¡SEE YA LATER!");
                 }
-                default -> System.out.println("Opción no válid");
+                default -> System.out.println("Opción no válida.");
             }
 
         } while (opcion != 4);
